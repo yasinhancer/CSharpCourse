@@ -10,7 +10,7 @@ namespace Conditionals
     {
         static void Main(string[] args)
         {
-            var number = 10;
+            var number = 300;
             if (number == 10)
             {
                 Console.WriteLine("Number is 10");
@@ -43,8 +43,33 @@ namespace Conditionals
                     break;
             }
 
+            //CONTROL+K SONRA CONTROL+D KOD BLOKLARINI VE BOŞLUKLARI OLMASI GEREKTİĞİ GİBİ YAPAR
 
+            //ARALIKLI ŞART BLOĞU
 
+            if (number >= 0 && number <= 100) // && : VE
+            {
+                Console.WriteLine("Number is between 0-100");
+            }
+            else if (number > 100 && number <= 200)
+            {
+                Console.WriteLine("Number is between 101-200");
+            }
+            else if (number > 200 || number < 0) // || : YA DA 
+            {
+                Console.WriteLine("Number is less than 0 or greater than 200");
+            }
+
+            
+            //IF İÇİNDE IF YAZMA
+            
+            if (number < 100)
+            {
+                if (number >= 90 && number < 100)
+                {
+
+                }
+            }
 
             Console.ReadLine();
         }
