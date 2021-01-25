@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Loops
+namespace Loops // DÖNGÜLER
 {
     class Program
     {
@@ -65,7 +65,6 @@ namespace Loops
             Console.WriteLine("Finished!");
             Console.WriteLine("Finished!");
             Console.WriteLine("Finished!");
-
 
             if (IsPrimeNumber(6)) 
             {
